@@ -82,7 +82,8 @@ html{
     letter-spacing: 2px;
     transition: 0.5s;
     box-shadow:0 5px 35px rgba(0,0,0,0.08);
-    border:5px solid rgb(254, 238, 214);
+    border:5px solid #E1C699;
+    cursor:pointer;
 
 }
 .btn:hover{
@@ -156,7 +157,7 @@ flex-direction: column;
     justify-content: center; 
 
     align-items: center;
-    flex-direction: column-reverse;    
+    flex-direction: column;    
     flex-wrap: wrap;
     margin-top:40px;
 }
@@ -171,19 +172,32 @@ flex-direction: column;
 .menu-box{
     display: flex;
     align-items: center;
-    justify-content: space-between;   
+    /* justify-content: space-between;    */
     margin-top:50px;
     width:1200px;
     box-shadow:0 5px 35px rgba(0,0,0,0.08);
     border:5px solid white;
     height: 400px;
-    background-color:#E1C699;
+    /* background-color:#E1C699; */
 
 
 }
 .menu-img{
     width:48%;
-    height: 100%;
+    height: 80%;
     
 
+}
+.div{
+    margin-left: 200px;
+}
+.menu-name{
+    font-weight: 300;
+    font-size: 20px;
+}
+.active{
+    margin-right: 200px;
+}
+.imgSize{
+    margin-left:80px;
 }
