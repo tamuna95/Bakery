@@ -298,6 +298,8 @@ p{
     position: relative;
     width:100%;
     min-height: 300px;
+    flex-wrap: wrap;
+
 }
 .imgBox img{
     position: absolute;

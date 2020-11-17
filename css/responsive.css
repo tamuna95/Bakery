@@ -9,8 +9,25 @@
         display: block;
     }
 }
+@media(max-width:600px){
+    .about-row{
+        width:100%;
+        flex-wrap: wrap;
+    }
+    .about-div{
+        /* flex-wrap: wrap;
+
+        flex-direction: column; */
+        display: none;
+    }
+}
 @media(max-width:438px){
     .active1{
         margin-top:50px;
+    }
+}
+@media(max-width:378px){
+    .social-network{
+        flex-wrap: wrap;
     }
 }
