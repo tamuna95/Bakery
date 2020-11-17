@@ -2,12 +2,18 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel  = "stylesheet" type = "text/css" href = "css/reset.css">
-        <link rel  = "stylesheet" type = "text/css" href = "css/style.css"> 
-        <link rel  = "stylesheet" type = "text/css" href = "css/font.css"> 
-        <link rel  = "stylesheet" type = "text/css" href = "css/responsive.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Tamara Tsetskhladze">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">    
+        <link rel="shortcut icon" type="image/x-ico" href="https://icons.iconarchive.com/icons/barkerbaggies/bag-o-tiles/24/N-icon.png">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/font.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        
         <script src = "https://kit.fontawesome.com/6de6aa5275.js" crossorigin = "anonymous"></script>
 
+        
 
         <title>
             Bakery
@@ -16,143 +22,284 @@
 
 
     <body>
-        <header class = "header-wraper">
-            <a href ="#" class = "logo">Bakery <span>.</span></a>
+       
+        <header class = "header">
+            <a class = "logo" href = "#">Bakery<span>.</span></a>
             <nav class = "navigation">
-                <ul class = "nav-ul">
-                    <li class = "nav-li">
-                        <a  class = "nav-a"href = "#banner">Home</a>
+                <ul>
+                    <li>
+                        <a class ="li-a" href ="#banner">Home</a>
                     </li>
-                    <li class = "nav-li">
-                        <a class = "nav-a"href = "#about">About</a>
+                    <li>
+                        <a class ="li-a" href ="#aboutus">About Us</a>
                     </li>
-                    <li class = "nav-li">
-                        <a class = "nav-a menu"href = "#menu">Menu</a>
+                    <li>
+                        <a class ="li-a" href ="#menu">Our Menu</a>
                     </li>
-                    
-                    <li class = "nav-li">
-                        <a class = "nav-a"href = "#chefs">Chefs</a>
+                    <li>
+                        <a class ="li-a" href ="#chefs">Experts</a>
                     </li>
-                    <li class = "nav-li">
-                        <a class = "nav-a"href = "#contact">Contact</a>
+                    <li>
+                        <a class ="li-a" href ="#contact">Contact</a>
                     </li>
-    
-    
+
                 </ul>
-                
+
 
             </nav>
-            <div class="burger-icon">
-                <i class="fas fa-bars"></i>
+            <div class = "burger-icon">
+                <div class = "menu-btn-burger">
+
+                    </div>
             </div>
            
-               
         </header>
         <section class = "banner" id = "banner">
-            <div class = "container">
-                <h2 class = "banner-title">The best of Bakery</h2>
-                <p class = "banner-text">Since 1989 we have been our customers the best quality freshy baked food.
-                    Tap The  button to get more information</p>
-                <p class = "hours">Open Hours: 8:00-22:00</p>
-                <a  class = "btn"href = "#">See More</a>
+            
+            <div class = "content slide">
+                <h2 class = "bakery-title">The Best Of Bakery</h2>
+                <p class = "bakery-p">Since 1989 we've been serving our customers the best quality freshly baked food.</p>
+                <a class ="btn" href ="#menu">Our Menu</a>
             </div>
-
         </section>
        
 
-        <section class = "about" id = "about">
-            <div class = "row">
-                <div class = "wraper">
-                    <h2 class = "title-text"><span>A</span>bout Us</h2>
-                    <p class = "paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse deleniti non eveniet
-                         nulla doloribus explicabo quia dicta illum fuga fugit ipsum, unde sit ab, 
-                         beatae et pariatur officia molestias molestiae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse deleniti non eveniet
-                         nulla doloribus explicabo quia dicta illum fuga fugit ipsum, unde sit ab, 
-                         beatae et pariatur officia molestias molestiae.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse deleniti non eveniet
-                        nulla doloribus explicabo quia dicta illum fuga fugit ipsum, unde sit ab, 
-                        beatae et pariatur officia molestias molestiae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse deleniti non eveniet
-                        nulla doloribus explicabo quia dicta illum fuga fugit ipsum, unde sit ab, 
-                        beatae et pariatur officia molestias molestiae.</p>
-                </div>
-                <div class = "wraper">
-                    <div class = "image-box">
-                        <img src = "image/image1.jpg" alt = "image">
-                    </div>
-                </div>
-            </div>
+        <section class = "about" id = "aboutus">
+           <div class = "about-wraper">
+               <div class = "about-row">
+                   <h2 class = "titleText"><span>A</span>bout Us</h2>
+                   <p class = "about-para">Our Bakery was opened in 1989 in New York.Initially it provided custumers only fresh,soft and warm
+                       bread,five years later we decided to present other products, deserts and drinks. 
+                       Since 2010 our cafe have served many people in each day,our space in very cosy and confortable,every custumer
+                        can read books from our library and listen to music.We take care of our costumers mood.
+                       <br><br>
+
+                   </p>
+                
+               </div>
+               <div class = "about-row">
+                   <div class = "imgBox">
+                       <img src ="image/about.jpg" alt ="image">
+                   </div>
+               </div>
+           </div>
         </section>
 
 
-
-        <section class = "menu" id = "menu">
-
-
-            <div class = "wraper-menu">
-
-
-                <h2 class = "title-text">Our <span>M</span>enu</h2>
-                <p>nulla doloribus explicabo quia dicta illum fuga fugit ipsum, unde sit ab, 
-                </p>
+        <section class = "menu" id="menu">
+            <div class = "menu-wraper">
+                <h2 class = "titleText">Our<span>M</span>enu</h2>
+                <p class = "titleText">Made with Love</p>
 
             </div>
             <div class = "content">
-                <div class = "list">
-                        <div class = "menu-li">
-                            <img class ="li-img" src ="image/breakfast.jpg" alt = "img">
-                            <h4 class = "h4-menu">Breakfast</h4>
-                            <a class = "btn" href = "breakfast.html">View All</a>
-                        </div>
+                <div class = "box">
+                    <div class = "imgBox">
+                        <img src ="image/breakfast.jpg" alt="menu1">
 
-
-                         <div class = "menu-li">
-                            <img class ="li-img" src ="image/lunch.jpg" alt = "img">
-                            <h4 class = "h4-menu">Lunch</h4>
-                            <a class = "btn" href = "#">View All</a>
-                         </div>
-
-
-
-                        <div class = "menu-li">
-                            <img class ="li-img" src ="image/bread.jpg" alt = "img">
-                            <h4 class = "h4-menu">Bread</h4>
-                            <a class = "btn" href = "#">View All</a>
-                        </div>
-
-
-                 </div>
-                 <div class = "list">
-                    <div class = "menu-li">
-                        <img class ="li-img" src ="image/cakes.jpg" alt = "img">
-                        <h4 class = "h4-menu">Cakes</h4>
-                        <a class = "btn" href = "#">View All</a>
                     </div>
-
-
-                     <div class = "menu-li">
-                        <img class ="li-img" src ="image/coffee.jpg" alt = "img">
-                        <h4 class = "h4-menu">Drinks</h4>
-                        <a class = "btn" href = "#">View All</a>
-                     </div>
-
-
-
-                    <div class = "menu-li">
-                        <img class ="li-img" src ="image/donats.jpg" alt = "img">
-                        <h4 class = "h4-menu">Dounats</h4>
-                        <a class = "btn" href = "#">View All</a>
-                    </div>
-
-
-             </div>
-                            
+                    <div class = "text">
+                        <a href ="breakfast.html" class ="view">Breakfast</a>
                         
+                    </div>
+                </div>
+                <div class = "box">
+                    <div class = "imgBox">
+                        <img src ="image/lunch.jpg" alt="menu1">
+
+                    </div>
+                    <div class = "text">
+                        <a href ="lunch.html" class ="view">Lunch</a>
+
+                    </div>
+                </div>
+
+                <div class = "box">
+                    <div class = "imgBox">
+                        <img src ="image/bread.jpg" alt="menu1">
+
+                    </div>
+                    <div class = "text">
+                        <a href ="bread.html" class ="view">Bread</a>
+
+                    </div>
+                </div>
+                <div class = "box">
+                    <div class = "imgBox">
+                        <img src ="image/coffee.jpg" alt="menu1">
+
+                    </div>
+                    <div class = "text">
+                        <a href ="drinks.html" class ="view">Drinks</a>
+
+                    </div>
+                </div>
+                <div class = "box">
+                    <div class = "imgBox">
+                        <img src ="image/cakes.jpg" alt="menu1">
+
+                    </div>
+                    <div class = "text">
+                        <a href ="wedding.html" class ="view">Birthday&Wedding</a>
+
+                    </div>
+                </div>
+                <div class = "box">
+                    <div class = "imgBox">
+                        <img src ="image/menuimg5.jpg" alt="menu1">
+
+                    </div>
+                    <div class = "text">
+                        <a href = "cupcakes.html" class = "view">CupCakes</a>
+
+                    </div>
+                </div>
+                
             </div>
+            <div class = "content">         
+                   <a class ="btn" href = "#">View All</a>
+
+
+            </div>
+
+
+        </section>
+        <section class = "chefs" id ="chefs">
+            <div class = "menu-wraper">
+                <h2 class = "titleText">Our Bakery E<span>x</span>perts</h2>
+                <p></p>
+
+            </div>
+            <div class = "content">
+                <div class = "box">
+                    <div class = "imgBox">
+                        <img src ="image/chef1.jpg" alt="chef">
+                    </div>
+                    <div class = "text">
+                        <h3 class="chefs-name">Natsha Mosby</h3>
+                    </div>
+                </div>
+                <div class = "box">
+                    <div class = "imgBox">
+                        <img src ="image/chef2.jpg" alt="chef">
+                    </div>
+                    <div class = "text">
+                        <h3 class="chefs-name">Vadim Markin</h3>
+                    </div>
+                </div>
+                <div class = "box">
+                    <div class = "imgBox">
+                        <img src ="image/chef3.jpg" alt="chef">
+                    </div>
+                    <div class = "text">
+                        <h3 class="chefs-name">Lili Lenson</h3>
+                    </div>
+                </div>
+                <div class = "box">
+                    <div class = "imgBox">
+                        <img src ="image/image1.jpg" alt="chef">
+                    </div>
+                    <div class = "text">
+                        <h3 class="chefs-name">Meggy Miuchi</h3>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class = "contact" id="contact">
+            <div class = "menu-wraper">
+                <h2 class = "titleText"><span>C</span>ontact Us</h2>
+                <p class = titleText>We would glad to hear from you...</p>
+
+            </div>
+            <div class = "contactForm">
+                <h3>Send message</h3>
+                <div class = "input-wraper">
+                    <input type="text" placeholder="first name">
+                </div>
+                <div class = "input-wraper">
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class = "input-wraper">
+                    <textarea placeholder="additional information"></textarea>
+                </div>
+                <div class = "input-wraper">
+                    <input onclick="myFunction()" type="submit" value = "Send">
+                </div>
+            </div>
+
         </section>
 
-       
+      
         <footer>
+            <div class = "new-div">
+                <div class = "wraper-div active1">
+                    <ul>
+                        <li class="links">
+                            <a href="#" class="list-links">Contact Info</a>
+                        </li>
+                        <li class="list">
+                            <div class = "contact-div">
+                                <img class = "icon1" src ="image/mail.svg" alt ="mail">
+        
+                                <a  class = "li-a li-bread" href="mailto:example@yahoo.com" target="_blank" >example@yahoo.com</a>
+        
+                            </div>
+                            
+                        </li>
+                        <li class="list">
+                            <div class = "contact-div">
+                                <img class = "icon1" src ="image/phone.svg" alt ="phone">
+                                <a   class ="li-a li-bread" href="tel:+03204224254" target="_blank" > +0 320 422 4254</a>
+                            </div>
+                            
+                        </li>
+                        <li class="list">
+                            <div class = "contact-div">
+                                <img  class = "icon1" src ="image/map-pin.svg" alt ="pin">
+        
+                                <a class ="li-a li-bread" href="https://www.google.com/maps/place/Chicago,+IL,+USA/data=!4m2!3m1!1s0x880e2c3cd0f4cbed:0xafe0a6ad09c0c000?sa=X&ved=2ahUKEwjzqP-9ycvsAhXxlYsKHTnOC0IQ8gEwAHoECAsQAQ" target="_blank" > Main Str Chicago Ilinois</a>
+        
+                            </div>
+                            
+                        </li>
+                        
+        
+                    </ul>
+                </div>
+                <div class="copyright copyright-1">
+                    <p class="bracket-box">Copyright ©2020 All rights reserved</p>
+                
+                    
+                    <p class = "bracket-box">This template is made with love by <span class="Tamuna">Tamuna</span>.</p>
+                </div>  
+                        
+    
+            </div>
+                
+    
+                <div class = "social-network">
+                    <div class = "fb">
+                        <i class="fab fa-facebook-f icon"></i>
+    
+    
+                    </div>
+                    <div class = "tweeter">
+                        <i class="fab fa-twitter icon"></i>
+    
+                    </div>
+                    <div class = "google">
+                        <i class="fab fa-google-plus-g icon"></i>
+    
+                    </div>
+    
+                </div>
+                
+            </footer>
+           
+        <script src = "main.js">
+            
+            
+        </script>
 
-        </footer>
     </body>
-</html>

@@ -1,0 +1,16 @@
+@media(max-width:991px){
+    header{
+        padding:10px 20px;
+    }
+    .navigation{
+        display: none;
+    }
+    .burger-icon{
+        display: block;
+    }
+}
+@media(max-width:438px){
+    .active1{
+        margin-top:50px;
+    }
+}
