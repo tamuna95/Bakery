@@ -72,89 +72,41 @@ header .navigation li a{
 .li-a:hover{
     color:#E1C699;
 }
-.burger-icon  {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; 
-    -webkit-box-pack: center; 
-        -ms-flex-pack: center; 
-            justify-content: center; 
-    -webkit-box-align: center; 
-        -ms-flex-align: center; 
-            align-items: center; 
-    width: 80px;
-    height: 80px;
+
+/* .hamIcon{
+   font-size: 50px;
+    color:white;
+} */
+.hamIcon {
+    display: inline-block;
     cursor: pointer;
-    -webkit-transition:all .5s ease-in-out;
-    -o-transition:all .5s ease-in-out;
-    transition:all .5s ease-in-out;
-    display: none;
- }
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 10px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }
 
- .menu-btn-burger {
-     width:50px;
-     height: 6px;
-     background:#fff;
-     border-radius: 5px;
-     -webkit-transition: all .5s ease-in-out;
-     -o-transition: all .5s ease-in-out;
-     transition: all .5s ease-in-out;
-
- }
- .menu-btn-burger::before,
-.menu-btn-burger::after{
-     content:"";
-     position: absolute;
-     width:50px;
-     height: 6px;
-     background:#fff;
-     border-radius: 5px;
-     -webkit-box-shadow:0 2px 5px rgba(255 ,101,47,.2);
-             box-shadow:0 2px 5px rgba(255 ,101,47,.2);
-     -webkit-transition:all .5s ease-in-out;
-     -o-transition:all .5s ease-in-out;
-     transition:all .5s ease-in-out;
-
-
-
- }
- .menu-btn-burger::before{
-     -webkit-transform:translateY(16px);
-         -ms-transform:translateY(16px);
-             transform:translateY(16px);
-
- }
- .menu-btn-burger::after{
-    -webkit-transform:translateY(32px);
-        -ms-transform:translateY(32px);
-            transform:translateY(32px);
-
- }
-
- /* animation for burgerbar*/
-
- /* .burger-icon .open .menu-btn-burger{
-     -webkit-transform:translateX(-50px);
-         -ms-transform:translateX(-50px);
-             transform:translateX(-50px);
-     background:transparent;
-     -webkit-box-shadow:none;
-             box-shadow:none;
-
-
- }
- .burger-icon .open .menu-btn-burger ::before{
-     -webkit-transform:rotate(45deg) translate(35px,-35px);
-         -ms-transform:rotate(45deg) translate(35px,-35px);
-             transform:rotate(45deg) translate(35px,-35px);
- }
- .burger-icon .open .menu-btn-burger ::after{
-    -webkit-transform:rotate(-45deg) translate(35px,35px);
-        -ms-transform:rotate(-45deg) translate(35px,35px);
-            transform:rotate(-45deg) translate(35px,35px);
-
- } */
 /* bg-section */
 p{
     font-weight: 300;
@@ -190,9 +142,7 @@ p{
     
 } 
 .bakery-p{
-    font-family: 'Xanh Mono';
-
-}
+    font-family: 'Xanh Mono';}
 .slide{
     -webkit-animation:slideMe .8s ease-in;
             animation:slideMe .8s ease-in;
@@ -264,9 +214,37 @@ p{
 }
 
 /* about section */
+
 .about{
-    padding:100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
+.about-section{
+    background-image: url('../image/about.jpg');
+    background-repeat: no-repeat right;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+
+    padding:100px 0;
+}
+.inner-container{
+    width:55%;
+    float: left;
+    background-color: #fdfdfd;
+    padding:150px;
+    box-shadow: 0 5px 5px #E1C699;
+
+
+}
+
+.text-para{
+    line-height: 20px;
+    text-align: start;
+    margin-bottom: 40px;
+
+}
+
 .about-wraper{
     position: relative;
     width:100%;
@@ -299,6 +277,7 @@ p{
     width:100%;
     min-height: 300px;
     flex-wrap: wrap;
+    margin-left: 20px;
 
 }
 .imgBox img{
@@ -317,6 +296,9 @@ p{
     font-style: normal;
 }
 /* menu section */
+.menu{
+    margin-top:100px;
+}
 .menu-title{
     font-size:20px;
     font-weight: 300;
@@ -355,9 +337,9 @@ p{
 .box{
     width:340px;
     margin:20px;
-    border: 15 solid #fff;
+    border: 15 solid #CC888F;
     -webkit-box-shadow: 0 5px 5px rgb(0,0,0,0.08);
-            box-shadow: 0 5px 5px rgb(0,0,0,0.08);
+            box-shadow: 0 5px 5px #E1C699;
 }
 .text{
 padding:15px 0 5px
@@ -567,9 +549,7 @@ footer{
 .li-a{
     color: white;
 }
-.li-a:hover{
-    color:#111;
-}
+
 .links{
     margin-bottom: 26px;
     width: 92px;
