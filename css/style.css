@@ -144,8 +144,8 @@ p{
 .bakery-p{
     font-family: 'Xanh Mono';}
 .slide{
-    -webkit-animation:slideMe .8s ease-in;
-            animation:slideMe .8s ease-in;
+    -webkit-animation:slideMe .9s ease-in;
+            animation:slideMe .9s ease-in;
     color:#E1C699;
 
 }
@@ -548,6 +548,9 @@ footer{
 
 .li-a{
     color: white;
+}
+.li-a-hov:hover{
+    color:#fff;
 }
 
 .links{
